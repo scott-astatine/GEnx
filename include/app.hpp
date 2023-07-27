@@ -18,8 +18,8 @@ private:
   LveWindow lveWin{WIDTH, HEIGHT, "Geng"};
   EngineDevice lveDevice{lveWin};
   LvePipeline lvePipeline{
-      lveDevice, "/home/scott/Exploits/GForm/shaders/vertex_shader.vert.spv",
-      "/home/scott/Exploits/GForm/shaders/frag_shader.frag.spv",
+      lveDevice, "./shaders/vertex_shader.vert.spv",
+      "./shaders/frag_shader.frag.spv",
       LvePipeline::defaultPipelineConfigInfo(WIDTH, HEIGHT)};
 };
 
